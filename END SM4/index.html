@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header_content">
+                <img src="assets/img/logo.svg" alt="logo" class="logo">
+                <ul class="menu">
+                    <li class="menu_item"><a href="#" class="link">Главная</a></li>
+                    <li class="menu_item"><a href="#" class="link">Каталог</a></li>
+                    <li class="menu_item"><a href="https://github.com/Yl1a/js3.git" class="link">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main_content">
+                <div class="profile_info">
+                    <div class="profile_img">
+                        <div class="img"></div>
+                        <div class="border"></div>
+                    </div>
+                    <div class="info">
+                        <p class="text">Имя</p>
+                        <p class="text">почта@mail.ru</p>
+                    </div>
+                </div>
+                <div class="homes">
+                    <div class="homes_info">
+                        <h2 class="title">Заявки</h2>
+                        <div class="status">
+                            <div class="tub">
+                                <div class="status_item active" data-tab="#tab1">входящие</div>
+                                <div class="border_tub"></div>
+                            </div>
+                            <div class="tub">
+                                <div class="status_item" data-tab="#tab2">опубликованные</div>
+                                <div class="border_tub"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="homes_content active" id="tab1">
+                        <div class="homes_block_content">
+                            <div class="card_img"><img src="assets/img/Group 138.png" alt="card_img" class="img"></div>
+                            <div class="card_img"><img src="assets/img/Group 139.png" alt="card_img" class="img"></div>
+                            <div class="card_img"><img src="assets/img/Group 141.png" alt="card_img" class="img"></div>
+                            <div class="card_img"><img src="assets/img/Group 142.png" alt="card_img" class="img"></div>
+                        </div>
+                    </div>
+                    <div class="homes_content" id="tab2">
+                        <div class="homes_block_content">
+                            <div class="card_img"><img src="assets/img/Group 138.png" alt="card_img" class="img"></div>
+                            <div class="card_img"><img src="assets/img/Group 142.png" alt="card_img" class="img"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

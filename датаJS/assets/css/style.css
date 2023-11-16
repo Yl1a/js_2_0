@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000b9;
+    font-family: sans-serif;
+}
+
+button {
+    font-family: sans-serif;
+    transition: all .3s ease-in-out;
+}
+
+.container {
+    min-width: 1400px;
+    margin: 100px auto;
+}
+
+.dateAndTime {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.dateAndTime .parameters {
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffffbe;
+}
+
+.dateAndTime .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.dateAndTime .actions button {
+    padding: 5px 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #ffffffbe;
+
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+
+.dateAndTime .actions button:hover {
+    background-color: #ffffff;
+}

@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+    background-color: #eaeaea;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 100px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.time_block {
+    background-color: #333;
+    color: #eaeaea;
+    padding: 44px;
+    border-radius: 10px;
+
+    text-align: center;
+    display: none;
+}
+
+.time_block h1{
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.time_block .count {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.time_btn {
+
+    outline: none;
+    border: none;
+    background-color: #333;
+    color:#eaeaea;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 5px;
+    display: none;
+
+    transition: all .5s ease-in-out;
+
+}
+
+.time_btn:hover{
+    background-color: #c36519;
+}
+
+.time_block.active{
+    display: block;
+}
+
+.time_btn.active{
+    display: block;
+}
